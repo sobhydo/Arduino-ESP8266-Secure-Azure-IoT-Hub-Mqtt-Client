@@ -1,10 +1,12 @@
-#Securely stream data from ESP8266 MCUs to Azure IoT Hub over HTTPS/REST
+#Securely stream data from ESP8266 MCUs to Azure IoT Hub over Secure MQTT
+
+# NOTE: MQTT subscriptions currently not working...
 
 ###Purpose
 
 This solution securely streams sensor data directly to 
 [Azure IoT Hub](https://azure.microsoft.com/en-us/documentation/articles/iot-hub-what-is-iot-hub/) 
-or [Azure Event Hub](https://azure.microsoft.com/en-us/services/event-hubs/) over HTTPS calling Azure REST APIs from ESP8266 MCUs.
+or [Azure Event Hub](https://azure.microsoft.com/en-us/services/event-hubs/) over secure MQTT connection from ESP8266 MCUs.
 
 
 ###Device Platform
@@ -21,7 +23,7 @@ This project is implemented and tested on the following ESP8266 based developmen
 
 ###Firmware
 
-[Arduino core for ESP8266 WiFi chip V2.0](https://github.com/esp8266/Arduino) firmware adds HTTPS ([TLS](http://axtls.sourceforge.net/) 1.0 and 1.1) support, making this a viable platform for secure IoT data streaming. See [Security Discussion](https://github.com/esp8266/Arduino/issues/43) for more information.
+[Arduino core for ESP8266 WiFi chip V2.0](https://github.com/esp8266/Arduino) firmware adds ([TLS](http://axtls.sourceforge.net/) 1.0 and 1.1) support, making this a viable platform for secure IoT data streaming. See [Security Discussion](https://github.com/esp8266/Arduino/issues/43) for more information.
 
 
 
