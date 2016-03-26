@@ -1,6 +1,7 @@
 #Securely stream data from ESP8266 MCUs to Azure IoT Hub over Secure MQTT
 
 ** NOTE: MQTT publishing works, subscriptions currently does not working... **
+** See [Issue](https://github.com/Azure/azure-iot-sdks/issues/393) **
 
 ###Purpose
 
